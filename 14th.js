@@ -1,0 +1,18 @@
+//Write a program to sort an array without using built-in methods.
+let arr=[5,1,6,7,9,4,2,8];
+for(let i=0;i<=arr.length;i++)
+  { 
+    let temp=0;
+ for(let j=i+1;j<=arr.length;j++)
+ {  
+   if(arr[i]>arr[j])
+        {
+            temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+        }
+    
+ }
+console.log(arr[i]);
+ }
+
